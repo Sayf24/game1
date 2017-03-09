@@ -20,8 +20,11 @@ public class block {
   
   public int getWidth() { return width; }
   
-
-  public int getHeight() { return height; }
+  public int getHeight() {
+    return height;
+  }
+  
+  public void setCordx(int x) { cordx = (-x); }
   
   public Rectangle getBounds() {
     Rectangle rec = new Rectangle(cordx, cordy, width, height);
